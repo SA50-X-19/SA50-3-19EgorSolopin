@@ -9,7 +9,7 @@
 width: 100%;
 max-width: 2000px;
 display: flex;
-justify-content: space-evenly;
+justify-content: space-around;
 align-items: center;
 z-index: 1;
 }
@@ -48,20 +48,16 @@ text-decoration: none;
 }
 .name{
     display: flex;
-    justify-content: space-between;
-    font-style: normal;
 align-items: center;
-font-weight: normal;
 font-size: 23px;
-line-height: 60px;
 color: white;
-inline-size: 110px;
+font-family: Telugu Sangam MN;
 }
 .box{
     position: absolute;
 width: 100px;
 height: 37px;
-left: 1034px;
+left: 1113px;
 top: 30px;
 border: 2px solid #CD6326;
 box-sizing: border-box;
@@ -69,21 +65,14 @@ border-radius: 5px
 }
 .h1{
     position: absolute;
-   
-    left: 100px;
-    top: 130px;
-    
-    font-family: Zapf Dingbats;
+    left: 112px;
+    top: 160px;
+    font-family: Telugu Sangam MN;
     font-style: normal;
     font-weight: normal;
-    font-size: 35px;
+    font-size: 25px;
     line-height: 170px;
-
-    
     letter-spacing: 2px;
-    
-
-    
     color: #CD6326;
 }
 .text{
@@ -108,7 +97,7 @@ justify-content: center;
 }
 .donate_box{
     position: absolute;
-    top: 335px;
+    top: 330px;
     left: 0px;
     width: 160px;
     height: 60px;
